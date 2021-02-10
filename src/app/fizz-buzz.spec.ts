@@ -12,7 +12,7 @@ describe('Fizz Buzz Test', () => {
   const testCases = [
     {
       input: 1,
-      output: "1"
+      output: "Die Antwort ist 42."
     },
   ]
   // ----
