@@ -12,16 +12,16 @@ describe('Fizz Buzz Test', () => {
   const testCases = [
     {
       input: 1,
-      output: "Die Antwort ist 42."
+      expectedValue: "1"
     },
   ]
   // ----
 
   testCases.forEach((testCase) => {
-    describe(`Executing FizzBuzz with user = ${testCase.input}`, () => {
-      it(`return should return '${testCase.output}'.`, () => {
+    describe(`When calling the fizzBuzz function with the the value ${testCase.input}`, () => {
+      it(`should return '${testCase.expectedValue}'.`, () => {
         const result = testee.fizzBuzz(testCase.input);
-        expect(result).toEqual(testCase.output);
+        expect(result).toEqual(testCase.expectedValue);
       })
     })
 
