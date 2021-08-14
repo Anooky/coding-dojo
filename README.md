@@ -12,4 +12,8 @@ Run `ng test` to execute the unit tests. A Window with the test results will ope
 
 # Varia
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+To install it on your computer, you need:
+* Git
+* npm + node: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-installer-to-install-nodejs-and-npm 
+* Angular: npm install -g @angular/cli
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
