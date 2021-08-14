@@ -3,19 +3,29 @@ import { FizzBuzz } from './fizz-buzz';
 describe('Fizz Buzz Test', () => {
   let testee: FizzBuzz;
 
-
-  beforeEach(async () => {
-    testee = new FizzBuzz();
-  });
-
   // ----- Add Testcases HERE
   const testCases = [
     {
       input: 1,
       expectedValue: "1"
     },
+    /* ADD NEW TEST CASES LIKE THIS:
+    {
+      input: 2,
+      expectedValue: "1"
+    },
+    */
   ]
+
+
   // ----
+
+  // --- DON'T TOUCH THIS CODE. IT RUN'S THE TEST CASES
+
+
+  beforeEach(async () => {
+    testee = new FizzBuzz();
+  });
 
   testCases.forEach((testCase) => {
     describe(`When calling the fizzBuzz function with the the value ${testCase.input}`, () => {
