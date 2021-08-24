@@ -9,44 +9,6 @@ describe('Fizz Buzz Test', () => {
       input: 1,
       expectedValue: '1'
     },
-
-    {
-      input: 2,
-      expectedValue: '2'
-    },
-
-
-    {
-      input: 3,
-      expectedValue: 'Fizz'
-    },
-
-    {
-      input: 4,
-      expectedValue: '4'
-    },
-
-    {
-      input: 5,
-      expectedValue: 'Buzz'
-    },
-
-    {
-      input: 6,
-      expectedValue: 'Fizz'
-    },
-
-    {
-      input: 15,
-      expectedValue: 'FizzBuzz'
-    },
-
-    {
-      input: undefined,
-      expectedValue: 'Falscher Input'
-    },
-
-
   ]
 
 
