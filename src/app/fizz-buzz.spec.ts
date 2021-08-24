@@ -3,18 +3,25 @@ import { FizzBuzz } from './fizz-buzz';
 describe('Fizz Buzz Test', () => {
   let testee: FizzBuzz;
 
-  // ----- Add Testcases HERE
   const testCases = [
+
+    // ----- Add Testcases HERE
     {
       input: 1,
       expectedValue: '1'
     },
+
+    /*
+    {
+      input: 2,
+      expectedValue: '2'
+    },
+    */
+
+    // ----
   ]
 
-
-  // ----
-
-  // --- DON'T TOUCH THIS CODE. IT RUN'S THE TEST CASES
+  // --- DON'T TOUCH THE CODE BELOW THIS LINE. IT RUN'S THE TEST CASES
 
 
   beforeEach(async () => {
