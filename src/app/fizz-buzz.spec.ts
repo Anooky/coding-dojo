@@ -3,38 +3,34 @@ import { FizzBuzz } from './fizz-buzz';
 describe('Fizz Buzz Test', () => {
   let testee: FizzBuzz;
 
+  // ----- Add Testcases HERE
   const testCases = [
-
-    // ----- Add Testcases HERE
     {
       input: 1,
-      expectedValue: '1'
+      expectedValue: '1',
     },
-
-    /*
+    /* ADD NEW TEST CASES LIKE THIS:
     {
       input: 2,
       expectedValue: '2'
     },
     */
+  ];
 
-    // ----
-  ]
-
-  // --- DON'T TOUCH THE CODE BELOW THIS LINE. IT RUN'S THE TEST CASES
-
-
-  beforeEach(async () => {
-    testee = new FizzBuzz();
-  });
+  // --- DON'T TOUCH THIS CODE. IT RUNS THE TEST CASES
 
   testCases.forEach((testCase) => {
     describe(`When calling the fizzBuzz function with the the value ${testCase.input}`, () => {
-      it(`should return '${testCase.expectedValue}'.`, () => {
-        const result = testee.fizzBuzz(testCase.input);
-        expect(result).toEqual(testCase.expectedValue);
-      })
-    })
+      let result: string;
 
-  })
+      beforeEach(() => {
+        testee = new FizzBuzz();
+        result = testee.fizzBuzz(testCase.input);
+      });
+
+      it(`it should return '${testCase.expectedValue}'.`, () => {
+        expect(result).toEqual(testCase.expectedValue);
+      });
+    });
+  });
 });
