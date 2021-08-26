@@ -9,12 +9,11 @@ describe('Fizz Buzz Test', () => {
       input: 1,
       expectedValue: '1',
     },
-    /* ADD NEW TEST CASES LIKE THIS:
     {
       input: 2,
       expectedValue: '2'
     },
-    */
+
   ];
 
   // --- DON'T TOUCH THIS CODE. IT RUNS THE TEST CASES
