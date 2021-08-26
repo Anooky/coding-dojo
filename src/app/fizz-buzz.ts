@@ -1,11 +1,9 @@
 export class FizzBuzz {
-  constructor() { }
+  constructor() {}
 
   fizzBuzz(inputValue: number): string {
-
     if (inputValue === 1) {
       return '';
     }
-
   }
 }
