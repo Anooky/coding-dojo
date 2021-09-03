@@ -9,10 +9,12 @@ describe('Fizz Buzz Test', () => {
       input: 1,
       expectedValue: '1',
     },
+    /* -- This is the next test:
     {
       input: 2,
       expectedValue: '2'
     },
+    -- */
 
   ];
 
